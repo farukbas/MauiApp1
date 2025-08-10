@@ -1,0 +1,23 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "GrpcServerSample";
+
+package aymed;
+
+// The greeting service definition.
+service NotificationProto {
+  rpc StreamNotifications (EmptyRequest) returns (stream NotificationResponse);
+  rpc StreamContentNotifications (ContentRequest) returns (stream NotificationResponse);
+}
+
+
+message EmptyRequest{
+}
+message ContentRequest{
+	string title=1;
+}
+
+// The response message containing the greetings.
+message NotificationResponse {
+  string message = 1;
+}
