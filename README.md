@@ -16,7 +16,7 @@ Bu proje, Aymed Medical tarafından sağlanan case study gereksinimlerini karş�
 - **Thread Güvenliği:** `SemaphoreSlim`, `Interlocked`
 ## Kurulum ve Çalıştırma
 1.  **Sunucuyu Çalıştırma:** İlk olarak, case study ile birlikte sağlanan `AymedCase.exe` sunucu uygulamasını çalıştırın.
-2.  **İstemciyi Çalıştırma:** Projeyi Visual Studio 2022 ile açın. Araç çubuğunda başlangıç projesinin `MauiApp1` (veya proje adınız ne ise) ve hedefin `Windows Machine` olarak seçili olduğundan emin olun.
+2.  **İstemciyi Çalıştırma:** Projeyi Visual Studio 2022 ile açın. Araç çubuğunda başlangıç projesinin `MauiApp1`  ve hedefin `Windows Machine` olarak seçili olduğundan emin olun.
 3.  Klavyeden **F5** tuşuna basarak veya yeşil 'Oynat' butonuna tıklayarak projeyi hata ayıklama modunda başlatın.
 4.  Uygulamanın donma olmadan, tam performansla çalışmasını test etmek için **Ctrl + F5** (Start Without Debugging) ile de çalıştırabilirsiniz.
 ## Kod Mimarisi ve Önemli Kavramlar
